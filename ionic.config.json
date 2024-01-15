@@ -1,0 +1,7 @@
+{
+  "name": "healthConnectTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
