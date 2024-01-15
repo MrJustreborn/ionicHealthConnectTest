@@ -4825,6 +4825,15 @@
         "hash": "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
       }
     },
+    "npm:cordova-plugin-health": {
+      "type": "npm",
+      "name": "npm:cordova-plugin-health",
+      "data": {
+        "version": "3.0.1",
+        "packageName": "cordova-plugin-health",
+        "hash": "sha512-ENUE7XSkgCC5KZK3o1e3DDOaJHtU52TmVrZgDlTcvtICXnygwDXPnHhfbmcbPZt/BbS06euwEmVGg8NJCHK9zA=="
+      }
+    },
     "npm:core-js-compat": {
       "type": "npm",
       "name": "npm:core-js-compat",
