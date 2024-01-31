@@ -93,7 +93,7 @@
       },
       {
         "file": "android/app/capacitor.build.gradle",
-        "hash": "321577693221425197"
+        "hash": "16868449330530564612"
       },
       {
         "file": "android/app/proguard-rules.pro",
@@ -105,7 +105,11 @@
       },
       {
         "file": "android/app/src/main/AndroidManifest.xml",
-        "hash": "15143078514206279353"
+        "hash": "676451027907932293"
+      },
+      {
+        "file": "android/app/src/main/assets/www/privacypolicy.html",
+        "hash": "8544977566380347232"
       },
       {
         "file": "android/app/src/main/java/io/ionic/starter/MainActivity.java",
@@ -257,7 +261,7 @@
       },
       {
         "file": "android/build.gradle",
-        "hash": "15247024166514751308"
+        "hash": "11825923019321972102"
       },
       {
         "file": "android/capacitor.settings.gradle",
@@ -289,11 +293,11 @@
       },
       {
         "file": "android/variables.gradle",
-        "hash": "9467210284462474397"
+        "hash": "4649040258547750731"
       },
       {
         "file": "angular.json",
-        "hash": "11992048326398934745"
+        "hash": "11670040851889344198"
       },
       {
         "file": "capacitor.config.ts",
@@ -316,6 +320,10 @@
         "hash": "1322496031930471920"
       },
       {
+        "file": "src/android_asset/privacypolicy.html",
+        "hash": "8544977566380347232"
+      },
+      {
         "file": "src/app/app-routing.module.ts",
         "hash": "7092203362848417435"
       },
@@ -333,7 +341,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "3298285516620454244"
+        "hash": "17357474118262018078"
       },
       {
         "file": "src/app/app.module.ts",

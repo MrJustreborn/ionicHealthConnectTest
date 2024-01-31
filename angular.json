@@ -26,6 +26,11 @@
                 "output": "assets"
               },
               {
+                "glob": "**/*",
+                "input": "src/android_asset",
+                "output": "android_asset"
+              },
+              {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"

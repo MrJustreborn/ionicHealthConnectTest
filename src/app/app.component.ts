@@ -12,6 +12,17 @@ export class AppComponent implements OnInit {
     // @ts-ignore
     cordova.plugins.health.setPrivacyPolicyURL("https://example.com", () => {
       console.info("success")
+      this.launch();
+    }, (e: any) => {
+      console.info("Err:", e)
+      this.launch();
+    });
+  }
+
+  launch() {
+    // @ts-ignore
+    cordova.plugins.health.launchPrivacyPolicy(() => {
+      console.info("success")
     }, (e: any) => {
       console.info("Err:", e)
     });
