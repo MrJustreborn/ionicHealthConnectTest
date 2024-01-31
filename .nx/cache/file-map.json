@@ -10,6 +10,7 @@
     "@angular/platform-browser": "^17.0.2",
     "@angular/platform-browser-dynamic": "^17.0.2",
     "@angular/router": "^17.0.2",
+    "@awesome-cordova-plugins/health": "^6.6.0",
     "@capacitor/android": "5.6.0",
     "@capacitor/app": "5.0.6",
     "@capacitor/core": "5.6.0",
@@ -17,7 +18,7 @@
     "@capacitor/keyboard": "5.0.7",
     "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.0.0",
-    "cordova-plugin-health": "^3.0.1",
+    "cordova-plugin-health": "file:../../cordova-plugin-health",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -313,11 +314,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "18022678171238213389"
+        "hash": "4195722537232576269"
       },
       {
         "file": "package.json",
-        "hash": "1322496031930471920"
+        "hash": "14394206187383525604"
       },
       {
         "file": "src/android_asset/privacypolicy.html",

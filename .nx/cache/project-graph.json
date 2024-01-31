@@ -253,6 +253,24 @@
         "hash": "sha512-H71nDOOL8Y7kWRLqf6Sums+01Q5msqBW2KhDUTemh1tvY04eSkSXrK0uj/4mmY0Xr16/3zyZmsrxN7CKuRbNRg=="
       }
     },
+    "npm:@awesome-cordova-plugins/core": {
+      "type": "npm",
+      "name": "npm:@awesome-cordova-plugins/core",
+      "data": {
+        "version": "6.6.0",
+        "packageName": "@awesome-cordova-plugins/core",
+        "hash": "sha512-mr2oI+qIoxgoccG57VMkkQdedvulIFJ+kyDeXZvrA1CSkFu1RzTwRvM6QuyA01f9i9G9hSSONpAp4v94h45LNA=="
+      }
+    },
+    "npm:@awesome-cordova-plugins/health": {
+      "type": "npm",
+      "name": "npm:@awesome-cordova-plugins/health",
+      "data": {
+        "version": "6.6.0",
+        "packageName": "@awesome-cordova-plugins/health",
+        "hash": "sha512-lLekeTRvG16ErAbNIiO1aQtI2u5BXkVzzREaE67r/WyFWJex8qAUXIwoDGPln4+RI7Fsa+fqauYt0cU0zYMULA=="
+      }
+    },
     "npm:@babel/code-frame": {
       "type": "npm",
       "name": "npm:@babel/code-frame",
@@ -3079,6 +3097,15 @@
         "hash": "sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q=="
       }
     },
+    "npm:@types/cordova": {
+      "type": "npm",
+      "name": "npm:@types/cordova",
+      "data": {
+        "version": "11.0.3",
+        "packageName": "@types/cordova",
+        "hash": "sha512-kyuRQ40/NWQVhqGIHq78Ehu2Bf9Mlg0LhmSmis6ZFJK7z933FRfYi8tHe/k/0fB+PGfCf95rJC6TO7dopaFvAg=="
+      }
+    },
     "npm:@types/cors": {
       "type": "npm",
       "name": "npm:@types/cors",
@@ -4823,15 +4850,6 @@
         "version": "3.0.0",
         "packageName": "slash",
         "hash": "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
-      }
-    },
-    "npm:cordova-plugin-health": {
-      "type": "npm",
-      "name": "npm:cordova-plugin-health",
-      "data": {
-        "version": "3.0.1",
-        "packageName": "cordova-plugin-health",
-        "hash": "sha512-ENUE7XSkgCC5KZK3o1e3DDOaJHtU52TmVrZgDlTcvtICXnygwDXPnHhfbmcbPZt/BbS06euwEmVGg8NJCHK9zA=="
       }
     },
     "npm:core-js-compat": {
@@ -11500,6 +11518,25 @@
       {
         "source": "npm:@angular/router",
         "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@awesome-cordova-plugins/core": [
+      {
+        "source": "npm:@awesome-cordova-plugins/core",
+        "target": "npm:rxjs",
+        "type": "static"
+      }
+    ],
+    "npm:@awesome-cordova-plugins/health": [
+      {
+        "source": "npm:@awesome-cordova-plugins/health",
+        "target": "npm:@awesome-cordova-plugins/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@awesome-cordova-plugins/health",
+        "target": "npm:rxjs",
         "type": "static"
       }
     ],
